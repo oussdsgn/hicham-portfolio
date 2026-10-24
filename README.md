@@ -6,7 +6,7 @@ Its layout follows the [Vexoo Framer template](https://vexoo.framer.website/abou
 No build step: plain HTML, CSS and JS.
 
 ```
-portfolio/
+./
 ├── index.html      home: bento grid (About, Portfolio, Contact, portrait, software, Resume)
 ├── about.html      bio, roles, experience timeline (#experience), contact
 ├── work.html       project grid with category filters
@@ -21,7 +21,7 @@ portfolio/
 ## Run locally
 
 ```sh
-cd portfolio && python3 -m http.server 8000   # then open http://localhost:8000
+python3 -m http.server 8000   # then open http://localhost:8000
 ```
 
 ## Adding a project
@@ -32,4 +32,4 @@ cd portfolio && python3 -m http.server 8000   # then open http://localhost:8000
 
 ## Deploy
 
-Upload the `portfolio/` folder to any static host (Netlify, Vercel, GitHub Pages, cPanel…). All paths are relative.
+Upload this folder to any static host (Netlify, Vercel, GitHub Pages, cPanel…). All paths are relative.
